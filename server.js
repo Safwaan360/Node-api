@@ -137,7 +137,6 @@ app.delete('/products/:id', async (req, res) => {
     }
   });
   
-
 mongoose.connect(MONGO_URL)
 .then(()=>{
     console.log("Connected to Mongodb");
@@ -152,5 +151,4 @@ mongoose.connect(MONGO_URL)
     console.log(error);
      
 })
-
 
